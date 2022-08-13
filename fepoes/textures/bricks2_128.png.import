@@ -6,6 +6,10 @@ path.s3tc="res://.import/bricks2_128.png-96ea5e2b20552cafdbbf03f82275b601.s3tc.s
 path.etc2="res://.import/bricks2_128.png-96ea5e2b20552cafdbbf03f82275b601.etc2.stex"
 path.etc="res://.import/bricks2_128.png-96ea5e2b20552cafdbbf03f82275b601.etc.stex"
 path.pvrtc="res://.import/bricks2_128.png-96ea5e2b20552cafdbbf03f82275b601.pvrtc.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
+"vram_texture": true
+}
 
 [deps]
 
@@ -17,6 +21,7 @@ dest_files=[ "res://.import/bricks2_128.png-96ea5e2b20552cafdbbf03f82275b601.s3t
 compress/mode=2
 compress/lossy_quality=1.0
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=false
@@ -26,6 +31,8 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false

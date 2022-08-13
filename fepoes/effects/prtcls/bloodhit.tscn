@@ -1,8 +1,9 @@
 [gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://effects/hit_effect.gd" type="Script" id=1]
-[ext_resource path="res://effects/bld/bldstrip.png" type="Texture" id=2]
+[ext_resource path="res://effects/bld/bld1.png" type="Texture" id=2]
 [ext_resource path="res://effects/prtcls/blooddrop.png" type="Texture" id=3]
+
 
 [sub_resource type="Gradient" id=1]
 

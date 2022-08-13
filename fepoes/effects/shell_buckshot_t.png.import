@@ -4,17 +4,24 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.s3tc.stex"
 path.etc2="res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.etc2.stex"
+path.etc="res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.etc.stex"
+path.pvrtc="res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.pvrtc.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://effects/shell_buckshot_t.png"
-dest_files=[ "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.s3tc.stex", "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.etc2.stex" ]
+dest_files=[ "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.s3tc.stex", "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.etc2.stex", "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.etc.stex", "res://.import/shell_buckshot_t.png-f7114f3a94cad3c2c4cbfe493db7d37d.pvrtc.stex" ]
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=false
@@ -24,6 +31,8 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false

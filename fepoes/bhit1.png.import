@@ -3,6 +3,9 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/bhit1.png-7c5c0f7cfe1c28982a8ab88af9b45401.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
@@ -14,6 +17,7 @@ dest_files=[ "res://.import/bhit1.png-7c5c0f7cfe1c28982a8ab88af9b45401.stex" ]
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=1
+compress/bptc_ldr=0
 compress/normal_map=2
 flags/repeat=0
 flags/filter=false
@@ -23,6 +27,8 @@ flags/srgb=0
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false

@@ -4,17 +4,24 @@ importer="texture"
 type="StreamTexture"
 path.s3tc="res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.s3tc.stex"
 path.etc2="res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.etc2.stex"
+path.etc="res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.etc.stex"
+path.pvrtc="res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.pvrtc.stex"
+metadata={
+"imported_formats": [ "s3tc", "etc2", "etc", "pvrtc" ],
+"vram_texture": true
+}
 
 [deps]
 
 source_file="res://weapons/vyhlop/scope.png"
-dest_files=[ "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.s3tc.stex", "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.etc2.stex" ]
+dest_files=[ "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.s3tc.stex", "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.etc2.stex", "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.etc.stex", "res://.import/scope.png-65a05cf536a1186f3673121ac87a6533.pvrtc.stex" ]
 
 [params]
 
 compress/mode=2
 compress/lossy_quality=1.0
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=true
 flags/filter=false
@@ -24,6 +31,8 @@ flags/srgb=1
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=false
