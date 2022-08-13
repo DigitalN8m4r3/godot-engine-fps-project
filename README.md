@@ -1,3 +1,7 @@
+## Updated to work with Godot 3.5
+as this seems to be the only legit resource for dismemberment in godot and it would be a shame if it would get lost
+
+## Original ReadMe
 # godot-engine-fps-project
 
 made with godot 3.0.6, should work with 3.1 but needs some adjustments like enabling collisions with areas for weapon raycasts
